@@ -1,0 +1,33 @@
+{
+  "name": "mean-stack-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start loader.js --name backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielguim/mean-stack-learn.git"
+  },
+  "author": "Gabriel Guimarães",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielguim/mean-stack-learn/issues"
+  },
+  "homepage": "https://github.com/gabrielguim/mean-stack-learn#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-query-int": "^1.0.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.9.4",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^2.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
